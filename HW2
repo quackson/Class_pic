@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T02:47:37.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="zs61jumuxdb40vND3y0o" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-29T03:22:18.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="VTZjT0VazJLnKBdCTVAK" version="14.6.3" type="github">
   <diagram id="Qgvkra25r8u1JXZiwRTA" name="Page-1">
-    <mxGraphModel dx="1743" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1991" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,6 +62,114 @@
         </mxCell>
         <mxCell id="FRp4ahMpGlBtmOAVGIZt-20" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="160" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-24" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-27" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-28" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="FRp4ahMpGlBtmOAVGIZt-27" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="585" as="targetPoint" />
+            <mxPoint x="170" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-29" value="待登录" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-30" value="业务选择" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-32" value="登录" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-29" target="FRp4ahMpGlBtmOAVGIZt-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="590" as="sourcePoint" />
+            <mxPoint x="280" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-36" value="待放入钱款" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="800" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-38" value="选择存款" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-30" target="FRp4ahMpGlBtmOAVGIZt-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="710" as="sourcePoint" />
+            <mxPoint x="260" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-39" value="待取款" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="680" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-40" value="选择取款" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-30" target="FRp4ahMpGlBtmOAVGIZt-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364.9999999999999" y="740.0000000000001" as="sourcePoint" />
+            <mxPoint x="364.9999999999999" y="810.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-41" value="待选择查询内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="800" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-42" value="存款中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="910" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-43" value="查询中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="910" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-47" value="完成取款" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;entryX=0.75;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-39" target="FRp4ahMpGlBtmOAVGIZt-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="750" as="sourcePoint" />
+            <mxPoint x="500" y="715" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="525" y="650" />
+              <mxPoint x="355" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-48" value="完成取款" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-42" target="FRp4ahMpGlBtmOAVGIZt-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.0000000000002" y="727.5" as="sourcePoint" />
+            <mxPoint x="349" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="880" />
+              <mxPoint x="220" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-49" value="放入存款" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.655;entryY=0.017;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryPerimeter=0;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-36" target="FRp4ahMpGlBtmOAVGIZt-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="740" as="sourcePoint" />
+            <mxPoint x="365" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-51" value="选择查询" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-30" target="FRp4ahMpGlBtmOAVGIZt-41">
+          <mxGeometry x="-0.3253" y="-42" relative="1" as="geometry">
+            <mxPoint x="400" y="715" as="sourcePoint" />
+            <mxPoint x="500" y="715" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-52" value="查询结束" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=0;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-43" target="FRp4ahMpGlBtmOAVGIZt-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="715" as="sourcePoint" />
+            <mxPoint x="430" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-53" value="选择查询内容" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-41" target="FRp4ahMpGlBtmOAVGIZt-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="725" as="sourcePoint" />
+            <mxPoint x="510" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-58" value="退出" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-30" target="FRp4ahMpGlBtmOAVGIZt-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="740" as="sourcePoint" />
+            <mxPoint x="365" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-60" value="结束服务" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;exitX=0;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FRp4ahMpGlBtmOAVGIZt-29" target="FRp4ahMpGlBtmOAVGIZt-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="750" as="sourcePoint" />
+            <mxPoint x="190" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
