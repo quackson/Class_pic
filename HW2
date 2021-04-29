@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T02:15:42.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.3" etag="7ttuBeo70CQS2ZxCoCcN" type="github"><diagram id="Qgvkra25r8u1JXZiwRTA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-29T02:47:37.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="zs61jumuxdb40vND3y0o" version="14.6.3" type="github">
+  <diagram id="Qgvkra25r8u1JXZiwRTA" name="Page-1">
+    <mxGraphModel dx="1743" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-2" value="obj1:计算机" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FRp4ahMpGlBtmOAVGIZt-2">
+          <mxGeometry x="45" y="60" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-3" value="obj1:打印机" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FRp4ahMpGlBtmOAVGIZt-3">
+          <mxGeometry x="45" y="60" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-4" value="obj1:打印服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FRp4ahMpGlBtmOAVGIZt-4">
+          <mxGeometry x="45" y="60" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-13" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=0.832;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="303.31999999999994" y="179.2" as="sourcePoint" />
+            <mxPoint x="460" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="382" y="179" />
+              <mxPoint x="460" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-15" value="打印信号" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="238" as="sourcePoint" />
+            <mxPoint x="471" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-17" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="470" y="198" as="sourcePoint" />
+            <mxPoint x="626" y="198" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="198" />
+              <mxPoint x="626" y="198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-19" value="打印结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.24;entryY=0.832;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FRp4ahMpGlBtmOAVGIZt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="248" as="sourcePoint" />
+            <mxPoint x="310" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-21" value="打印请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-22" value="新增打印请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FRp4ahMpGlBtmOAVGIZt-20" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="440" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
